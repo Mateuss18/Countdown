@@ -6,7 +6,6 @@
     --light-grey: #C8C8C8;
     --text-color: #9C9AB6;
 }
-
 *{
     margin: 0;
     padding: 0;
@@ -17,14 +16,16 @@ main{
     .image-d img{
         width: 100%;
     }
-
+    .bottom img{
+        position: fixed;
+        top: 75%;
+    }
     .container{
         display: flex;
         justify-content: center;
         align-items: center;
         text-align: center;
-        gap: 80px;
-        
+        gap: 40px;
         .left{
             h2{
                 color: var(--purple);
@@ -32,27 +33,32 @@ main{
                 font-size: 36px;
                 padding-bottom: 24px;
             }
-
             .container-countdown{
+                align-items: center;
                 display: flex;
-                gap: 40px;
-
-                .countdown span{
-                    color: var(--light-grey);
-                    font-size: 14px;
+                width: 650px;
+                gap: 27px;
+                color: var(--black);
+                .countdown{
+                    min-width: 95px;
+                    span{
+                        color: var(--light-grey);
+                        font-size: 14px;
+                    }
                 }
                 .text{
                     font-size: 72px;
-                    color: var(--black);
+                }
+                .doisPontos{
+                    font-size: 70px;
+                    margin-top: 13px;
                 }
             }
-
             .sobre{
                 color: var(--text-color);
                 font-size: 14px;
                 padding-bottom: 40px;
             }
-
             button{
                 cursor: pointer;
                 background-color: var(--purple);
@@ -62,13 +68,12 @@ main{
                 height: 46px;
                 width: 160px;
                 transition: 0.6s;
-            }
-            button:hover{
-                background-color: #554dff;
-                font-size: 16px;
+                &:hover{
+                    background-color: #554dff;
+                    font-size: 16px;
+                }
             }
         }
-    
     }    
 }
 
