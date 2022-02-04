@@ -1,0 +1,43 @@
+@media screen and (max-width: 1485px) {
+    body {
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+        .container {
+            gap: 0px;
+            .left {
+                h2 {
+                    font-size: 21px;
+                }
+                .container-countdown {
+                    gap: 6px;
+                    width: auto;
+                    .countdown {
+                        min-width: 70px;
+                        span {
+                            font-size: 14px;
+                        }
+                    }
+                    .text {
+                        font-size: 50px;
+                    }
+                    .doisPontos {
+                        font-size: 50px;
+                    }
+                }
+                .sobre {
+                    font-size: 14px;
+                    padding-bottom: 40px;
+                }
+                button {
+                    height: 46px;
+                    width: 160px;
+                }
+            }
+        }
+    }
+    img {
+        display: none;
+    }
+}
+
