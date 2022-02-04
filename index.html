@@ -1,54 +1,60 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="./css/main.css">
-    <script src="./script.js"></script>
-    <title>Countdown</title>
-</head>
-<body>
-    <main>
-        <div class="image-d top">
-            <img src="./assets/top-image.svg" alt="imagem de onda">
-        </div>
+        <link rel="stylesheet" href="./css/main.css" />
 
-        <div class="container">
-            <div class="left">
-                <h2 class="title">READY TO LAUNCH IN...</h2>
+        <title>Countdown</title>
+    </head>
+    <body>
+        <main>
+            <div class="image-d top">
+                <img src="./assets/top-image.svg" alt="imagem de onda" />
+            </div>
 
-                <div class="container-countdown">
-                    <div class="countdown" id="days-e">
-                        <span>Dias</span>
-                        <p class="text" id="days">0</p>
+            <div class="container">
+                <div class="left">
+                    <h2 class="title">READY TO LAUNCH IN...</h2>
+
+                    <div class="container-countdown">
+                        <div class="countdown" id="days-e">
+                            <span>Dias</span>
+                            <p class="text" id="days">0</p>
+                        </div>
+                        <span class="doisPontos">:</span>
+                        <div class="countdown" id="hours-e">
+                            <span>Horas</span>
+                            <p class="text" id="hours">0</p>
+                        </div>
+                        <span class="doisPontos">:</span>
+                        <div class="countdown" id="minutes-e">
+                            <span>Minutos</span>
+                            <p class="text" id="minutes">0</p>
+                        </div>
+                        <span class="doisPontos">:</span>
+                        <div class="countdown" id="seconds-e">
+                            <span>Segundos</span>
+                            <p class="text" id="seconds">0</p>
+                        </div>
                     </div>
-                    <div class="countdown" id="hours-e">
-                        <span>Horas</span>
-                        <p class="text" id="hours">0</p>
-                    </div>
-                    <div class="countdown" id="minutes-e">
-                        <span>Minutos</span>
-                        <p class="text" id="minutes">0</p>
-                    </div>
-                    <div class="countdown" id="seconds-e">
-                        <span>Segundos</span>
-                        <p class="text" id="seconds">0</p>
-                    </div>
+
+                    <p class="sobre">
+                        Inscreva-se para saber mais sobre o lançamento
+                    </p>
+                    <button>Inscreva-se</button>
                 </div>
-
-                <p class="sobre">Inscreva-se para saber mais sobre o lançamento</p>
-                <button>Inscreva-se</button>
+                <div class="right">
+                    <img src="./assets/rocket.svg" alt="foguete" />
+                </div>
             </div>
-            <div class="right">
-                <img src="./assets/rocket.svg" alt="foguete">
-            </div>
-        </div>
 
-        <div class="image-d bottom">
-            <img src="./assets/bottom-image.svg" alt="imagem de onda">
-        </div>
-    </main>
-</body>
+            <div class="image-d bottom">
+                <img src="./assets/bottom-image.svg" alt="imagem de onda" />
+            </div>
+        </main>
+        <script src="./script.js"></script>
+    </body>
 </html>
