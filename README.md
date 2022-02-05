@@ -1,7 +1,7 @@
 <h1 align="center">Countdown</h1>
   
 <div align="center">
-  <img height="500px" src="/assets/Countdown.png">
+  <img src="/assets/Countdown.png">
   <img height="500px" src="/assets/Countdown-mobile.png">
 </div>
 
